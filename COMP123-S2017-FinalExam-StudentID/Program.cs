@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name: Abubakir Myrzaly
+ * Date: 8/17/2017
+ * StudentID: 300931945
+ * Description: Drive Class
+ * Version: 0.1 Just creat form
  */
 
 namespace COMP123_S2017_FinalExam_StudentID
