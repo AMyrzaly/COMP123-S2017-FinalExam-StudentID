@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.SplashFormTimer = new System.Windows.Forms.Timer(this.components);
+            this.Welcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // SplashFormTimer
@@ -37,6 +38,17 @@
             this.SplashFormTimer.Enabled = true;
             this.SplashFormTimer.Interval = 3000;
             this.SplashFormTimer.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // Welcome
+            // 
+            this.Welcome.AutoSize = true;
+            this.Welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Welcome.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.Welcome.Location = new System.Drawing.Point(98, 149);
+            this.Welcome.Name = "Welcome";
+            this.Welcome.Size = new System.Drawing.Size(254, 25);
+            this.Welcome.TabIndex = 0;
+            this.Welcome.Text = "Welcome to Card game!!!";
             // 
             // SplashForm
             // 
@@ -46,6 +58,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(600, 500);
             this.ControlBox = false;
+            this.Controls.Add(this.Welcome);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -53,11 +66,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashForm";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Timer SplashFormTimer;
+        private System.Windows.Forms.Label Welcome;
     }
 }

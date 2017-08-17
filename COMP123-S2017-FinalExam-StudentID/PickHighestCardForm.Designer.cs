@@ -300,7 +300,6 @@
             this.Name = "PickHighestCardForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pick The Highest Card";
-            this.Load += new System.EventHandler(this.PickHighestCardForm_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.FifthCardPictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FourthCardPictureBox)).EndInit();
