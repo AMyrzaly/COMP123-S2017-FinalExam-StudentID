@@ -45,6 +45,8 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 _score = value;
+                ScoreTextBox.Text = Convert.ToString(Score);
+                FinalScoreTextBox.Text = Convert.ToString(this._score);
             }
         }
         public TextBox ScoreTextBox {
@@ -65,6 +67,7 @@ namespace COMP123_S2017_FinalExam_StudentID
             set
             {
                 _time = value;
+                TimeTextBox.Text = Convert.ToString(_time);
             }
         }
         public TextBox TimeTextBox {
